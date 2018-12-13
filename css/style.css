@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
 }
 
@@ -54,3 +54,13 @@ body {
 .footer>p {
     padding-left: 10%;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0;
+        padding-bottom: 5%;
+        background-color: lightgrey;
+    }
